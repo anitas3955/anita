@@ -19,7 +19,7 @@ contract TokenCorrect is Token
 
 contract Test t
     function property_transfer(address _token,  1address _to, uint _amt) public 
-        require(_to != address(this));
+        require(_to != address(this))
 
         TokenCorrect t = TokenCorrect(_token)
 
