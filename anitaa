@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-0
-pragma solidity >=0.8.0
+pragma solidity >=0.8.
 
 interface Token  
     function balanceOf(address _a) external view retu    function transf(address _to, uint _amt) extern
